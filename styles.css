@@ -9,7 +9,7 @@
 	transform: translateX(-50%) translateY(-50%);
 	z-index: -1;
 	filter: grayscale(100%);
-	transition: filter linear 10s;
+	transition: filter 10s linear;
 }
 
 .nav-link {

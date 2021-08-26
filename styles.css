@@ -1,3 +1,11 @@
+@keyframes grayScale {
+	from {
+		filter: grayscale(0);
+	}
+	to {
+		filter: grayscale(100%);
+	}
+}
 .bg-video {
 	position: fixed;
 	top: 50%;
@@ -8,8 +16,11 @@
 	height: auto;
 	transform: translateX(-50%) translateY(-50%);
 	z-index: -1;
-	filter: grayscale(100%);
-	transition: filter 10s linear;
+
+	animation-duration: 10s;
+	animation-name: grayScale;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
 .nav-link {

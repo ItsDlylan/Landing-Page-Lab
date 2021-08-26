@@ -1,1 +1,37 @@
+.bg-video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+	filter: grayscale(100%);
+	transition: filter linear 10s;
+}
 
+.nav-link {
+	color: black;
+}
+
+.mb-0 .mb-auto {
+	font-size: 1.5rem;
+}
+
+.nav {
+	transition: linear 0.2s background;
+}
+.nav:hover {
+	background: rgba(51, 51, 51, 0.7);
+}
+
+.nav a:hover {
+	color: white;
+}
+.input-group-newsletter {
+	width: 50%;
+	align-items: flex-end;
+	margin: auto;
+}
